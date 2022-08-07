@@ -1,0 +1,7 @@
+Install Nest CLI
+
+npm install @nestjs/cli
+
+Setup New Project
+
+nest new <project Name > or npx @nestjs/cli new <project name>
