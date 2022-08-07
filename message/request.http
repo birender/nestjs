@@ -1,0 +1,15 @@
+### List all messages
+GET http://localhost:3000/messages/list
+
+### Post Message
+
+POST http://localhost:3000/messages/save
+content-type: application/json
+
+{
+    "content" : "Hi There"
+}
+
+### Get Message ID
+
+GET http://localhost:3000/messages/13353/birender
